@@ -163,6 +163,29 @@ li {
   width: 100%;
 }
 
+.typing {
+  width: 780px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  color: white;
+  display: flex;
+  animation: typing 3s steps(20, end), cursor .4s steps(20, end) infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+}
+@keyframes cursor {
+  50% { border-color: transparent }
+}
+
+/*
 .animatedText {
   position: absolute;
   top: 50%;
@@ -188,6 +211,7 @@ li {
     transform: scale(1.5);
   }
 }
+  */
 
 .bigCardA {
   animation: bounce-in-right 2s ease;
@@ -336,3 +360,5 @@ li {
 #imgFilm-2:hover{
   content: url(assiets/gifs/SMsb.gif);
 }
+
+
