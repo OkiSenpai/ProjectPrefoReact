@@ -1,4 +1,4 @@
-import MySmallCards from "./SmallCards";
+import MySmallCards from "./Lists";
 
 export default function MyInterview() {
   return (
@@ -14,8 +14,6 @@ export default function MyInterview() {
           iure totam magnam!
         </p>
         <MySmallCards />
-
-
       </section>
     </>
   );

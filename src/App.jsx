@@ -1,18 +1,12 @@
-
-import MyInterview from "./components/section 1/Interview"
-import NavBar from "./components/NavBar"
-import MyVideo from "./components/Video"
-export default function MyApp(){
-
-
-  return(
+import MyInterview from "./components/section 2/Interview";
+import NavBar from "./components/section 1/NavBar";
+import MyVideo from "./components/section 1/Video";
+export default function MyApp() {
+  return (
     <div>
-        <NavBar />
-        <MyVideo />
-        <MyInterview />
+      <NavBar />
+      <MyVideo />
+      <MyInterview />
     </div>
-  )
-
-
-
-}  
+  );
+}
