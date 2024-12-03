@@ -1,4 +1,4 @@
-export default function RenderSmallCards(props) {
+export default function RenderSmallCards(props, question) {
   const developers = props.developers;
 
   return (

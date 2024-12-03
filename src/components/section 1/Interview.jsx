@@ -1,5 +1,4 @@
-import BigCards from "./cards/BigCards";
-import MySmallCards from "./Lists";
+import MySmallCards from "./SmallCards";
 
 export default function MyInterview() {
   return (
@@ -14,8 +13,9 @@ export default function MyInterview() {
           repellendus doloribus non eius officiis doloremque, impedit reiciendis
           iure totam magnam!
         </p>
-        <MySmallCards />
-      
+        <MySmallCards/>
+
+
       </section>
     </>
   );
